@@ -18,6 +18,8 @@ body{
     color: rgb(218, 218, 218);
 }
 
+/* Navigation*/
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -108,3 +110,44 @@ nav{
         transform: translateX(0px);
     }
 }
+
+/* Content*/
+
+.texthead{
+    font-weight: 100;
+    justify-content: center;
+    align-items: left;
+    margin-left: 100px;
+    width: 100%;
+}
+
+.texthead h1 {
+    font-size: 8vw;
+    line-height: 110%;
+}
+
+.content{ 
+    padding: 10px;
+}
+
+.img-container{
+    float: left;
+    padding-top: 4rem;
+    margin-left: 100px;
+}
+
+.img-container img{
+    display: block;
+    width: 500px;
+}
+
+.text-container{
+    display: block;
+    width: 500px;
+    float: right;
+    font-size: 2vw;
+    padding-top: 4rem;
+    margin-right: 100px;
+}
+
+
