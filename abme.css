@@ -155,7 +155,7 @@ nav{
 
 @media screen and (max-width:768px) {
     .content{ 
-        margin-right: 0;
+    margin-right: 0;
        right: 0px;
        height: 92vh;
        top: 10vh;
