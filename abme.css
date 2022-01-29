@@ -94,6 +94,7 @@ nav{
         display: block;
         cursor: pointer;
     }
+    
 }
 
 .nav-active{
@@ -128,12 +129,13 @@ nav{
 
 .content{ 
     padding: 10px;
+    display: flex;
 }
 
 .img-container{
     float: left;
-    padding-top: 4rem;
-    margin-left: 100px;
+    margin-left: 200px;
+    width: 50%;
 }
 
 .img-container img{
@@ -143,11 +145,32 @@ nav{
 
 .text-container{
     display: block;
-    width: 500px;
+    width: 50%;
     float: right;
-    font-size: 2vw;
-    padding-top: 4rem;
+    font-size: 1.5vw;
     margin-right: 100px;
+    margin-left: 100px;
+    justify-content: left;
 }
 
+@media screen and (max-width:768px) {
+    .content{ 
+        margin-right: 0;
+       right: 0px;
+       height: 92vh;
+       top: 10vh;
+       background: #0f0f0f;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+    }
+
+    .img-container{
+        margin: 20px;
+    }
+    .img-container img{
+        width: 100%;
+    }
+}
 
