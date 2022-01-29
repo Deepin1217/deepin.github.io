@@ -116,7 +116,7 @@ nav{
     justify-content: center;
     align-items: left;
     margin-left: 100px;
-    width: 100%;
+    width: 90%;
 }
 
 .texthead h1 {
@@ -127,4 +127,116 @@ nav{
 .texthead h2 {
     font-size: 6vw;
     line-height: 110%;
+}
+
+.wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 2rem;
+    margin-left: 110px;
+  }
+  
+  .typing-demo {
+    width:  30ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2vw;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .content{ 
+    padding: 10px;
+    display: flex;
+}
+
+.img-container{
+    float: left;
+    margin-left: 72px;
+    width: 80%;
+}
+
+.img-container img{
+    display: block;
+    width: 80%;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.resume-btn {
+    margin-top: 200px;
+    margin-right: 200px;
+    background-color: rgb(128, 30, 219);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-justify: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 32px;
+    height: 72px;
+  }
+
+  .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .line{
+      margin-top: 20px;
+      width: 80%;
+      height: 2px;
+      background: rgba(218, 218, 218,0.5);
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 20px;
+    border-radius: 100%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  
+.fa-instagram {
+    background: linear-gradient(#F58529,#DD2A7B,#515BD4);
+    color: white;
+  }
+
+.fa-behance{
+    background:#053eff;
+    color: white;
 }
